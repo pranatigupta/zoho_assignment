@@ -1,0 +1,43 @@
+.search-header{
+    display: flex;
+    gap: 10px;
+}
+
+.option-container{
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.input-container{
+    position: relative;
+}
+
+.input-container i{
+    position: absolute;
+    top: 6px;
+    left: 4px;
+}
+
+.input-container input {
+    padding-left: 20px;
+    border-radius: 10px;
+    border-width: 0.4px;
+    height: 18px;
+}
+
+.my-table { 
+    width: 100vw;
+}
+
+.table-head{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+tr {
+    width: auto;
+}
